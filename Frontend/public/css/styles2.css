@@ -1,0 +1,63 @@
+/* styles2.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* สีพื้นหลังเป็นสีขาว */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffcccc; /* สีพื้นหลังของกล่องเป็นสีแดงอ่อน */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0000; /* สีตัวอักษรของหัวเรื่องเป็นสีแดง */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ff0000; /* สีตัวอักษรเป็นสีแดง */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff0000; /* ขอบสีแดง */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    background-color: #fc7045; /* สีพื้นหลังปุ่มเป็นสีเหลือง */
+    color: #000; /* สีตัวอักษรเป็นสีดำ */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffca8d; /* เปลี่ยนสีปุ่มเมื่อ hover */
+}
+
+p {
+    color: #ff0000; /* สีข้อความใต้ฟอร์มเป็นสีแดง */
+    margin-top: 10px;
+}
+#message {
+    margin-top: 20px;
+    text-align: center;
+}
