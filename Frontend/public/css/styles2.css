@@ -19,14 +19,14 @@ body {
 }
 
 h1 {
-    color: #ff0000; /* สีตัวอักษรของหัวเรื่องเป็นสีแดง */
+    color: #575757; /* สีตัวอักษรของหัวเรื่องเป็นสีแดง */
     margin-bottom: 20px;
 }
 
 label {
     display: block;
     margin-bottom: 8px;
-    color: #ff0000; /* สีตัวอักษรเป็นสีแดง */
+    color: #575757; /* สีตัวอักษรเป็นสีแดง */
 }
 
 input[type="text"], input[type="password"] {
