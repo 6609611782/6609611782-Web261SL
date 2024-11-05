@@ -8,7 +8,7 @@ async function TU_REST_API() {
     };
   
     try {
-        const applicationKey = "xx";
+        const applicationKey = "TUd9a544a601a7541bcb2cccd1e0c75a47d6827534b22e88685f8caf26f1aa0697630835c612166cd57e922edcec829c31";
         const response = await fetch('https://restapi.tu.ac.th/api/v1/auth/Ad/verify', {
             method: 'POST',
             headers: {
